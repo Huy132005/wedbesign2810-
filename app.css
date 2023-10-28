@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+ p{   
+    color: red;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
+}
+p:hover{
+    background-color: antiquewhite;
+    transform: scale(1.5);
+    animation-name: circle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+a{
+    text-decoration: none;
+}
+@keyframes circle{
+    0%{transform: rotate(0);}
+    10%{transform: rotate(36deg);}
+    20%{transform: rotate(72deg);}
+    30%{transform: rotate(108deg);}
+    40%{transform: rotate(144deg);}
+    50%{transform: rotate(180deg);}
+    60%{transform: rotate(216deg);}
+}
