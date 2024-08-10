@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chuaBai.css">
+</head>
+<body>
+    <div class="block-title">
+        <a href="#">Ôn tập HTML5 và CSS3</a>
+    </div>
+    <div class="container">
+        <div class="block1"
+         ondrop="drop(event)"
+         ondragover="allowDrop(event)">
+        </div>
+        <div class="block2"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)">
+        <img id="drap1"
+        src="img2.jpg" 
+        alt=""
+        draggable="true"
+        ondragstart="drap(event)">
+        <img id="drap2"
+        src="img2.jpg" 
+        alt=""
+        draggable="true"
+        ondragstart="drap(event)">
+        <img id="drap3"
+        src="img2.jpg" 
+        alt=""
+        draggable="true"
+        ondragstart="drap(event)">
+        </div>   
+    </div>
+    <button id="getLocation">
+        <i class="fa-solid fa-location-dot"></i>
+    </button>
+    <script src="chuaBai.js"></script>
+</body>
+</html>
